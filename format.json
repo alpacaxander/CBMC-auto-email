@@ -1,0 +1,20 @@
+{
+    "template": "recentviews.txt",
+    "tables": [
+        {
+            "path":"agencies",
+            "key":"AgencyName"
+        },{
+            "path":"agencies-viewed",
+            "key": "AgencyName"
+        }],
+    "substitution": {"VIEWS":"Views", "AGENCY_NAME": "AgencyName"},
+    "conditions": {
+        "greater_than": [{
+            "attribute": "Views",
+            "value": 5
+        }],
+        "less_than": [],
+        "equal": []
+    }
+}

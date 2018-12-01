@@ -1,0 +1,6 @@
+Dear ${AGENCY_NAME}, 
+
+Recently, you have had ${VIEWS} on your Community Builders for Monterey County page.
+
+Yours Truly,
+CBMC
